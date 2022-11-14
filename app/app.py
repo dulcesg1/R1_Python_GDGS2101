@@ -1,6 +1,6 @@
 from flask import Flask, render_template, make_response, jsonify, request,redirect, url_for, session
 app = Flask(__name__)
-from flask_mysqldb import MySQL,MySQLdb # pip install Flask-MySQLdb
+#from flask_mysqldb import MySQL,MySQLdb # pip install Flask-MySQLdb
 from os import path #pip install notify-py
 from notifypy import Notify
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
