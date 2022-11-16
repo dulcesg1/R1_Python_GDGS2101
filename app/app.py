@@ -209,6 +209,6 @@ def registro():
         notificacion.send()
         return redirect(url_for('login'))
 
-if __name__ == "__main__":
-    print("Server running in port %s"%(PORT))
-    app.run(host='0.0.0.0', port=PORT)
+#if __name__ == "__main__":
+#   print("Server running in port %s"%(PORT))
+#    app.run(host='0.0.0.0', port=PORT)

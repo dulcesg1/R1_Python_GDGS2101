@@ -104,7 +104,7 @@ a{
     cursor: pointer;
     
 }
-.entrada a{
+.entrada a,.u-btn {
     /*border: none;
     outline: none;*/
     color: #3e4303;
@@ -116,6 +116,7 @@ a{
     border-radius: 2px;
     list-style: none;
     cursor: pointer;
+    
     
 }
 
@@ -233,8 +234,7 @@ body:before{
 }
 
 .u-body {
-    color: #111111;
-    background-color: #ffffff;
+    color: white;
 }
 .u-body {
     font-family: 'Open Sans',sans-serif;
@@ -242,9 +242,6 @@ body:before{
 .u-body {
     font-size: 1rem;
     line-height: 1.6;
-}
-Atributo style {
-    font-size: 16px;
 }
 
 .u-clearfix:after, .u-clearfix:before {
@@ -265,7 +262,7 @@ Atributo style {
     box-sizing: border-box;
 }
 #pasta_ven{
-    height: 5%;
- width: 5%;
+    height: 8%;
+ width: 8%;
 
 }
