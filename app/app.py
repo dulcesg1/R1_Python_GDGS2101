@@ -210,5 +210,5 @@ def registro():
         return redirect(url_for('login'))
 
 #if __name__ == "__main__":
-#   print("Server running in port %s"%(PORT))
-#    app.run(host='0.0.0.0', port=PORT)
+#    print("Server running in port %s"%(PORT))
+ #   app.run(host='0.0.0.0', port=PORT)
